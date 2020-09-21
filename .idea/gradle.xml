@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/demo_device_admin" />
+            <option value="$PROJECT_DIR$/dmeo_profile_owner" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
