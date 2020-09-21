@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">dmeo-profile-owner</string>
+    <string name="profile_owner">设置 Profile Owner</string>
+    <string name="screen_capture">是否允许截屏</string>
+    <string name="disable_app">是否禁用应用</string>
+    <string name="disable_camera">是否禁用相机</string>
+    <string name="is_volume_muted">是否静音</string>
+    <string name="permission">自动赋予权限</string>
 </resources>
