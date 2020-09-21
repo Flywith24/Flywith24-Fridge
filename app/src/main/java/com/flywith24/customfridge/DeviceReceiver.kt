@@ -13,12 +13,12 @@ import android.widget.Toast
  * description
  */
 class DeviceReceiver : DeviceAdminReceiver() {
-    override fun onEnabled(context: Context?, intent: Intent?) {
+    override fun onEnabled(context: Context, intent: Intent) {
         // 设备管理：可用
         Toast.makeText(context, "设备管理：可用", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onDisabled(context: Context?, intent: Intent?) {
+    override fun onDisabled(context: Context, intent: Intent) {
         // 设备管理：不可用
         Toast.makeText(context, "设备管理：不可用", Toast.LENGTH_SHORT).show()
     }
