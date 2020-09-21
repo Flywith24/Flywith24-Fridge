@@ -1,2 +1,3 @@
 include ':app'
 rootProject.name = "Flywith24-Fridge"
+include ':demo_device_admin'
