@@ -19,4 +19,23 @@
         android:layout_height="wrap_content"
         android:onClick="removeAdmin"
         android:text="@string/removeAdmin" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lockNow"
+        android:text="锁屏" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="resetPassword"
+        android:text="更改锁屏密码" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setCameraDisabled"
+        android:text="一键恢复出厂" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

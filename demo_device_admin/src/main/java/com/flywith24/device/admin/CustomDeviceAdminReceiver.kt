@@ -21,4 +21,5 @@ class CustomDeviceAdminReceiver : DeviceAdminReceiver() {
     override fun onDisabled(context: Context, intent: Intent) {
         Toast.makeText(context, "设备管理员关闭", Toast.LENGTH_SHORT).show()
     }
+
 }

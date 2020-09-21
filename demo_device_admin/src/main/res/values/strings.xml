@@ -2,4 +2,5 @@
     <string name="app_name">demo-DeviceAdmin</string>
     <string name="addAdmin">激活设备管理器</string>
     <string name="removeAdmin">取消激活设备管理器</string>
+    <string name="setPasswordQuality">设置解锁方式</string>
 </resources>
